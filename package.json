@@ -1,0 +1,12 @@
+{
+  "name": "yd-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "sjh",
+  "license": "ISC",
+  "devDependencies": {
+    "koa": "^2.7.0"
+  }
+}
