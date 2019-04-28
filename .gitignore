@@ -12,6 +12,14 @@ nbproject
 # windows thumbnail cache
 Thumbs.db
 
+
+node_modules
+
+
+
+node_modules/
+dist/
+
 # composer vendor dir
 /vendor
 
@@ -21,10 +29,6 @@ composer.phar
 # Mac DS_Store Files
 .DS_Store
 
-# phpunit itself is not needed
-phpunit.phar
-# local phpunit config
-/phpunit.xml
 
 tests/_output/*
 tests/_support/_generated
