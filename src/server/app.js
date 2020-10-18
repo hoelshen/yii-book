@@ -1,22 +1,18 @@
+import koa  from'koa'
 
+const app  = new koa();
 
+import serve  from 'koa-static';
 
-const koa = require('koa')
+import render from 'koa-swig';
 
-const app = new koa();
+import co  from 'co';
 
-const serve = require('koa-static');
+import log4js from 'log4js';
 
-const render = require('koa-swig');
+import config  from './config/index'
 
-
-const co = require('co');
-
-const log4js = require('log4js');
-
-const config = require('./config/index')
-
-const errorHandler = require('./middleware/errorHandler')
+import errorHandler  from './middleware/errorHandler'
 
 log4js.configure({
     appenders: { cheese: { type: 'file', filename: 'logs/cheese.log' } },

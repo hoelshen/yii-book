@@ -4,9 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server:dev": "node app.js",
+    "test": "echo \"🍎test\" && exit 0",
+    "dev": "echo \"🌰\"",
+    "pretest": "echo \"🌰\"",
+    "prebuild": "npm-rull-all --parallel server:hint",
+    "server:start": "scripty",
+    "server:dev": "scripty",
+    "server:prod": "scripty",
+    "server:hint": "scripty",
+    "client:dev": "scripty",
+    "client:prod": "scripty",
     "build": "babel ./assets/scripts/add.js --out-file ./assets/scripts/add-bundle.js",
-    "watch:dev": "cross-env NODE_ENV=development supervisor app.js",
     "docs": "jsdoc ./**/*.js -d ./docs/jsdocs"
   },
   "author": "sjh",
@@ -22,6 +30,11 @@
   "dependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-rollup": "^2.17.0",
+    "gulp-watch": "^5.0.1",
     "jsdoc": "^3.6.6",
     "koa-router": "^7.4.0",
     "koa-static": "^5.0.0",
@@ -29,7 +42,12 @@
     "log4js": "^4.1.0",
     "mongodb": "^3.6.2",
     "node-fetch": "^2.6.1",
+    "npm-run-all": "^4.1.5",
+    "scripty": "^2.0.0",
     "supervisor": "^0.12.0",
-    "swig": "^1.4.2"
+    "swig": "^1.4.2",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.0.0",
+    "yargs-parser": "^20.2.3"
   }
 }
