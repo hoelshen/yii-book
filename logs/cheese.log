@@ -88,3 +88,222 @@
 [2019-04-28T09:41:44.787] [DEBUG] cheese - some debug message
 [2019-04-28T10:09:55.778] [DEBUG] cheese - some debug message
 [2019-04-28T10:13:44.792] [DEBUG] cheese - some debug message
+[2020-10-16T21:52:45.756] [DEBUG] cheese - some debug message
+[2020-10-16T23:25:26.126] [DEBUG] cheese - some debug message
+[2020-10-16T23:27:15.418] [DEBUG] cheese - some debug message
+[2020-10-17T04:59:43.900] [DEBUG] cheese - some debug message
+[2020-10-17T04:59:44.519] [DEBUG] cheese - some debug message
+[2020-10-17T05:00:58.725] [DEBUG] cheese - some debug message
+[2020-10-17T05:11:25.363] [DEBUG] cheese - some debug message
+[2020-10-17T05:11:34.796] [ERROR] cheese - ReferenceError: data is not defined
+    at /Users/sjh/Documents/yii-book/controllers/indexController.js:11:21
+    at dispatch (/Users/sjh/Documents/yii-book/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sjh/Documents/yii-book/node_modules/koa-compose/index.js:45:18)
+    at /Users/sjh/Documents/yii-book/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/sjh/Documents/yii-book/node_modules/koa-compose/index.js:44:32)
+    at /Users/sjh/Documents/yii-book/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/sjh/Documents/yii-book/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/sjh/Documents/yii-book/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/sjh/Documents/yii-book/node_modules/koa-static/index.js:53:15)
+[2020-10-17T05:12:44.950] [ERROR] cheese - ReferenceError: data is not defined
+    at /Users/sjh/Documents/yii-book/controllers/indexController.js:11:21
+    at dispatch (/Users/sjh/Documents/yii-book/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/sjh/Documents/yii-book/node_modules/koa-compose/index.js:45:18)
+    at /Users/sjh/Documents/yii-book/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/sjh/Documents/yii-book/node_modules/koa-compose/index.js:44:32)
+    at /Users/sjh/Documents/yii-book/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/sjh/Documents/yii-book/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/sjh/Documents/yii-book/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/sjh/Documents/yii-book/node_modules/koa-static/index.js:53:15)
+[2020-10-17T05:12:58.814] [DEBUG] cheese - some debug message
+[2020-10-17T05:16:28.354] [DEBUG] cheese - some debug message
+[2020-10-17T05:39:03.042] [DEBUG] cheese - some debug message
+[2020-10-17T05:39:57.096] [DEBUG] cheese - some debug message
+[2020-10-17T05:41:56.376] [DEBUG] cheese - some debug message
+[2020-10-17T05:43:20.603] [DEBUG] cheese - some debug message
+[2020-10-17T05:56:09.681] [DEBUG] cheese - some debug message
+[2020-10-17T05:56:18.702] [DEBUG] cheese - some debug message
+[2020-10-17T05:56:39.685] [DEBUG] cheese - some debug message
+[2020-10-17T05:58:29.989] [DEBUG] cheese - some debug message
+[2020-10-17T06:01:49.572] [DEBUG] cheese - some debug message
+[2020-10-17T06:02:17.561] [DEBUG] cheese - some debug message
+[2020-10-17T10:55:44.013] [DEBUG] cheese - some debug message
+[2020-10-17T10:55:53.912] [DEBUG] cheese - some debug message
+[2020-10-17T10:56:08.011] [DEBUG] cheese - some debug message
+[2020-10-17T10:58:29.479] [DEBUG] cheese - some debug message
+[2020-10-17T11:26:56.249] [DEBUG] cheese - some debug message
+[2020-10-17T11:27:07.601] [DEBUG] cheese - some debug message
+[2020-10-17T11:28:00.233] [DEBUG] cheese - some debug message
+[2020-10-17T11:28:38.922] [DEBUG] cheese - some debug message
+[2020-10-17T11:29:05.348] [DEBUG] cheese - some debug message
+[2020-10-17T11:29:32.665] [DEBUG] cheese - some debug message
+[2020-10-17T11:30:09.934] [DEBUG] cheese - some debug message
+[2020-10-17T11:32:07.324] [DEBUG] cheese - some debug message
+[2020-10-17T12:16:28.911] [DEBUG] cheese - some debug message
+[2020-10-17T12:16:59.095] [DEBUG] cheese - some debug message
+[2020-10-17T12:33:45.766] [DEBUG] cheese - some debug message
+[2020-10-17T12:35:09.856] [DEBUG] cheese - some debug message
+[2020-10-17T16:58:02.754] [DEBUG] cheese - some debug message
+[2020-10-17T17:00:39.317] [DEBUG] cheese - some debug message
+[2020-10-17T17:00:40.110] [DEBUG] cheese - some debug message
+[2020-10-17T17:02:44.549] [DEBUG] cheese - some debug message
+[2020-10-17T17:03:14.528] [DEBUG] cheese - some debug message
+[2020-10-17T17:05:03.861] [DEBUG] cheese - some debug message
+[2020-10-17T17:09:18.607] [DEBUG] cheese - some debug message
+[2020-10-17T18:27:05.828] [DEBUG] cheese - some debug message
+[2020-10-17T18:42:11.925] [DEBUG] cheese - some debug message
+[2020-10-17T18:42:59.048] [DEBUG] cheese - some debug message
+[2020-10-17T18:43:04.049] [DEBUG] cheese - some debug message
+[2020-10-17T18:43:13.011] [DEBUG] cheese - some debug message
+[2020-10-17T22:35:00.926] [DEBUG] cheese - some debug message
+[2020-10-17T22:55:53.031] [DEBUG] cheese - some debug message
+[2020-10-17T22:56:08.955] [DEBUG] cheese - some debug message
+[2020-10-17T22:57:50.217] [DEBUG] cheese - some debug message
+[2020-10-17T22:58:10.272] [DEBUG] cheese - some debug message
+[2020-10-17T22:58:21.314] [DEBUG] cheese - some debug message
+[2020-10-17T22:58:33.370] [DEBUG] cheese - some debug message
+[2020-10-17T23:54:52.952] [DEBUG] cheese - some debug message
+[2020-10-17T23:55:03.522] [DEBUG] cheese - some debug message
+[2020-10-17T23:55:11.497] [DEBUG] cheese - some debug message
+[2020-10-17T23:56:54.783] [DEBUG] cheese - some debug message
+[2020-10-17T23:57:11.908] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:17.995] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:18.412] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:18.774] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:19.129] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:19.478] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:19.850] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:20.210] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:20.596] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:20.986] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:21.352] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:21.691] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:22.017] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:22.338] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:22.648] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:22.961] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:23.280] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:23.605] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:23.946] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:24.280] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:24.606] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:24.941] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:25.265] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:25.590] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:25.914] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:26.235] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:26.560] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:26.898] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:27.228] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:27.546] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:27.924] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:28.257] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:28.601] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:28.933] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:29.276] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:29.585] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:29.897] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:30.274] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:30.631] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:30.991] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:31.343] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:31.694] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:32.039] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:32.375] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:32.705] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:33.031] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:33.364] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:33.704] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:34.047] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:34.388] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:34.720] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:35.081] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:35.490] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:35.891] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:36.277] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:36.694] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:37.015] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:37.364] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:37.705] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:38.074] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:38.404] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:38.730] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:39.051] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:39.376] [DEBUG] cheese - some debug message
+[2020-10-18T10:00:39.710] [DEBUG] cheese - some debug message
+[2020-10-18T10:07:51.928] [DEBUG] cheese - some debug message
+[2020-10-18T10:08:59.178] [DEBUG] cheese - some debug message
+[2020-10-18T10:14:53.875] [DEBUG] cheese - some debug message
+[2020-10-18T10:16:44.252] [DEBUG] cheese - some debug message
+[2020-10-18T10:18:19.539] [DEBUG] cheese - some debug message
+[2020-10-18T10:18:49.653] [DEBUG] cheese - some debug message
+[2020-10-18T10:20:21.955] [DEBUG] cheese - some debug message
+[2020-10-18T10:20:48.062] [DEBUG] cheese - some debug message
+[2020-10-18T10:20:49.919] [ERROR] cheese - TypeError: Cannot set property 'body' of undefined
+    at /Users/sjh/Documents/yii-book/controllers/indexController.js:15:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async serve (/Users/sjh/Documents/yii-book/node_modules/koa-static/index.js:53:9)
+    at async /Users/sjh/Documents/yii-book/middleware/errorHandler.js:16:13
+    at async /Users/sjh/Documents/yii-book/middleware/errorHandler.js:5:17
+[2020-10-18T10:20:51.486] [ERROR] cheese - TypeError: Cannot set property 'body' of undefined
+    at /Users/sjh/Documents/yii-book/controllers/indexController.js:15:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async serve (/Users/sjh/Documents/yii-book/node_modules/koa-static/index.js:53:9)
+    at async /Users/sjh/Documents/yii-book/middleware/errorHandler.js:16:13
+    at async /Users/sjh/Documents/yii-book/middleware/errorHandler.js:5:17
+[2020-10-18T10:21:04.150] [DEBUG] cheese - some debug message
+[2020-10-18T10:38:03.778] [DEBUG] cheese - some debug message
+[2020-10-18T10:41:48.252] [DEBUG] cheese - some debug message
+[2020-10-18T10:50:51.487] [DEBUG] cheese - some debug message
+[2020-10-18T10:50:53.865] [ERROR] cheese - Error: Unexpected end of tag "for" on line 19 in file /Users/sjh/Documents/yii-book/views/index.html.
+    at Object.exports.throwError (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/utils.js:188:9)
+    at parseTag (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/parser.js:659:15)
+    at /Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/parser.js:778:15
+    at Object.exports.each (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/utils.js:45:11)
+    at Object.exports.parse (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/parser.js:755:9)
+    at exports.Swig.parse (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/swig.js:383:19)
+    at exports.Swig.precompile (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/swig.js:526:23)
+    at exports.Swig.compile (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/swig.js:651:16)
+    at /Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/swig.js:729:27
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+[2020-10-18T10:51:00.390] [DEBUG] cheese - some debug message
+[2020-10-18T10:51:00.944] [ERROR] cheese - Error: Unexpected end of tag "for" on line 19 in file /Users/sjh/Documents/yii-book/views/index.html.
+    at Object.exports.throwError (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/utils.js:188:9)
+    at parseTag (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/parser.js:659:15)
+    at /Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/parser.js:778:15
+    at Object.exports.each (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/utils.js:45:11)
+    at Object.exports.parse (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/parser.js:755:9)
+    at exports.Swig.parse (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/swig.js:383:19)
+    at exports.Swig.precompile (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/swig.js:526:23)
+    at exports.Swig.compile (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/swig.js:651:16)
+    at /Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/swig.js:729:27
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+[2020-10-18T10:51:20.126] [ERROR] cheese - Error: Unexpected end of tag "for" on line 19 in file /Users/sjh/Documents/yii-book/views/index.html.
+    at Object.exports.throwError (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/utils.js:188:9)
+    at parseTag (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/parser.js:659:15)
+    at /Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/parser.js:778:15
+    at Object.exports.each (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/utils.js:45:11)
+    at Object.exports.parse (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/parser.js:755:9)
+    at exports.Swig.parse (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/swig.js:383:19)
+    at exports.Swig.precompile (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/swig.js:526:23)
+    at exports.Swig.compile (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/swig.js:651:16)
+    at /Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/swig.js:729:27
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+[2020-10-18T10:51:21.182] [ERROR] cheese - Error: Unexpected end of tag "for" on line 19 in file /Users/sjh/Documents/yii-book/views/index.html.
+    at Object.exports.throwError (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/utils.js:188:9)
+    at parseTag (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/parser.js:659:15)
+    at /Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/parser.js:778:15
+    at Object.exports.each (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/utils.js:45:11)
+    at Object.exports.parse (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/parser.js:755:9)
+    at exports.Swig.parse (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/swig.js:383:19)
+    at exports.Swig.precompile (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/swig.js:526:23)
+    at exports.Swig.compile (/Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/swig.js:651:16)
+    at /Users/sjh/Documents/yii-book/node_modules/swig-templates/lib/swig.js:729:27
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+[2020-10-18T10:54:00.879] [DEBUG] cheese - some debug message
+[2020-10-18T10:55:32.334] [DEBUG] cheese - some debug message
+[2020-10-18T10:55:54.819] [DEBUG] cheese - some debug message
+[2020-10-18T10:56:06.857] [DEBUG] cheese - some debug message
+[2020-10-18T10:57:24.732] [DEBUG] cheese - some debug message
+[2020-10-18T10:58:01.152] [DEBUG] cheese - some debug message
+[2020-10-18T10:58:37.734] [DEBUG] cheese - some debug message

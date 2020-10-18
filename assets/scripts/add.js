@@ -1,8 +1,10 @@
-console.log('a')
+const utils = require('../scripts/utils')
 class Creates{
     constructor(){}
     add(){
-        console.log('es6')
+        utils.throttle(function(){
+          console.log('es6')
+        }, 10)
     }
 }
 

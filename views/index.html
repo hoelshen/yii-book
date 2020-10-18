@@ -1,26 +1,33 @@
 {% extends './layout.html' %}
-{% block title %} 图书 {% endblock %}
 {% block head %}
+
+{% block styles %}
 <link rel="stylesheet" href="/styles/index.css">
 {% endblock %}
+
+{% block title %} 图书 {% endblock %}
+
 <body>
-{% block content %}
-
-<!-- {% block script %}
-<script>
-    console.log('sc')
-</script>
+  {% block content %}
 
 
-{% endblock  %} -->
-<h1>图书管理</h1>
+  <h1>图书管理</h1>
 
-<div id="app">
-    <h1>[[data]]</h1>
-    <h1>{{ message}}</h1>
+  <div id="app">
+    {% for person in data %}
+      <li>[[ person.name ]]</li>
+    {% endfor %}
+    <h1>{{ message }}</h1>
     <input v-model="message">
-</div>
-{% endblock %}
+  </div>
+  {% block scripts %}
+  <script src="https://cdn.bootcss.com/vue/2.6.10/vue.js">
+
+  </script>
+  <script src="/scripts/index.js">
+  </script>
+
+  {% endblock %}
+
 
 </body>
-

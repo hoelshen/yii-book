@@ -8,23 +8,19 @@ let config = {
     'staticDir': join(__dirname, "..",'assets')
 }
 
-if(process.env.NODE_ENV == 'development'){
+if(env.NODE_ENV == 'development'){
     const localConfig = {
         port:3000
     }
     config = _.extend(config,localConfig)
     // console.log('config: ', config);
 
-
-
 } 
-if (process.env.NODE_ENV == 'production') {
-
+if (env.NODE_ENV == 'production') {
     const prodConfig = {
         port: 80
     }
     config = _.extend(config,prodConfig)
-
 
 }
 

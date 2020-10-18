@@ -1,6 +1,3 @@
-console.log('init');
-
-
 var app = new Vue({
     el: '#app',
     data: {

@@ -4,23 +4,36 @@
 <link rel="stylesheet" href="/styles/add.css">
 {% endblock %}
 {% block title %} 图书添加 {% endblock %}
+
 <body>
-{% block content %}
+  {% block content %}
 
-{% block script %}
-<script>
-    console.log('sc')
-</script>
+  <h1>图书增加</h1>
+  <div id="app">
+    <h1>{{ message }}</h1>
+    <input v-model="message">
+  </div>
+  {% block scripts %}
 
+  <script type="module" src="https://cdn.staticfile.org/systemjs/3.1.6/system.js">
+  </script>
 
-{% endblock  %}
+  <script type="module">
+    console.log('我不支持模块化')
 
-<h1>图书增加</h1>
-
-
-{% endblock  %}
-
-
-
-
+    System.import('/scripts/add-bundle.js').then((res) => {
+      // console.log(res)
+      const create = new res.default;
+      create.add()
+   })
+  </script>
+  <script type="module">
+    console.log('我支持模块化')
+    import('/scripts/add.js').then((res) => {
+        const create = new res.default;
+        console.log('create: ', create);
+        create.add()
+    })
+  </script>
+  {% endblock  %}
 </body>

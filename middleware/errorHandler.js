@@ -8,7 +8,6 @@ const errorHandler = {
                 logger.error(err)
                 ctx.status = 500;
                 ctx.body = "😢";
-
             }
         });
 
@@ -20,7 +19,7 @@ const errorHandler = {
             }
             //很多项目即使出现了 404 请求 header 200
             ctx.status = 200;
-            ctx.body = `<iframe src="https://api.isoyu.com/gy/" frameborder="0" scrolling="no" width="300" height="300"></iframe>`
+            ctx.body = `<script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" charset="utf-8"></script>`
         });
     }
 }
